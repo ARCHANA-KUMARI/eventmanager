@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main"
+    tools:context="com.robosoft.archanakumari.androideventmanager.EntryofEventManager">
+    <include  android:id="@+id/appbar" layout="@layout/app_bar" />
+    <ImageButton
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/insert"
+        android:src="@drawable/timer"
+        android:scaleType="center"
+        android:layout_gravity="center"
+        android:background="#ffccd4"
+        android:onClick="toGoHomepage"
+
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Event"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+    <ImageButton
+
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/display"
+        android:src="@drawable/list_all_participants"
+        android:scaleType="center"
+        android:layout_gravity="center"
+        android:background="#ffccd4"
+        android:onClick="toDisplay"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display List"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+    <ImageButton
+
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+        android:src="@drawable/delete"
+        android:scaleType="center"
+        android:layout_gravity="center"
+        android:background="#ffccd4"
+        android:onClick="toDelete"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        />
+</LinearLayout>

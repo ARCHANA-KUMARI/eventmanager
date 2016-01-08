@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Android Event Manager</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="array">
+        <item>Buddies:)</item>
+        <item>Archana Kumari</item>
+        <item>Sri Vidya K.</item>
+        <item>Rahul Panday</item>
+        <item>Deenanath Gupta</item>
+        <item>Sridhar</item>
+        <item>Manthesh</item>
+        <item>Saket kumar singh</item>
+        <item>Rakesh kumar</item>
+        <item>Sidhardh</item>
+        <item>Vikash kumar</item>
+    </string-array>
+    <string-array name="name">
+        <item>View Details</item>
+        <item>Delete Records</item>
+        <item>Set Alarm</item>
+
+    </string-array>
+    <string name="title_activity_second_page">SecondPage</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tryactivity">tryactivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
